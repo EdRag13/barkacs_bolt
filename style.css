@@ -8,6 +8,7 @@ body{
 .fotó{
     display: flex;
     justify-content: center;
+    algin-item: center;
 }
 img{
     transform: scale(1);
