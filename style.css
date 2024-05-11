@@ -5,10 +5,9 @@ h1{
 body{
     background-color: black;
 }
-.fotó{
+.foto{
     display: flex;
     justify-content: center;
-    algin-item: center;
 }
 img{
     transform: scale(1);
