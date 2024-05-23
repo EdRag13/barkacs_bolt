@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkácsbolt - Termékek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Barkácsbolt Logó">
+        <h1>Barkácsbolt</h1>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+    <nav class="nav-menu">
+        <a href="barkacs.html">Kezdőlap</a>
+        <a href="termek.html">Termékek</a>
+        <a href="rolunk.html">Rólunk</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+    </nav>
+    <div class="content">
+        <section id="products">
+            <h2>Termékek</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="product1.jpg" alt="Termék 1">
+                    <h2>Termék 1</h2>
+                    <p>Kiváló minőségű kalapács.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Termék 2">
+                    <h2>Termék 2</h2>
+                    <p>Erős csavarhúzó készlet.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Termék 3">
+                    <h2>Termék 3</h2>
+                    <p>Univerzális fúrókészlet.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product4.jpg" alt="Termék 4">
+                    <h2>Termék 4</h2>
+                    <p>Erős kéziszerszámok.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product5.jpg" alt="Termék 5">
+                    <h2>Termék 5</h2>
+                    <p>Kényelmes munkavédelmi ruházat.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product6.jpg" alt="Termék 6">
+                    <h2>Termék 6</h2>
+                    <p>Ütésálló védőszemüveg.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product7.jpg" alt="Termék 7">
+                    <h2>Termék 7</h2>
+                    <p>Ergonomikus kerti gereblye.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product8.jpg" alt="Termék 8">
+                    <h2>Termék 8</h2>
+                    <p>Prémium minőségű festékek.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product9.jpg" alt="Termék 9">
+                    <h2>Termék 9</h2>
+                    <p>Univerzális ragasztószalag.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product10.jpg" alt="Termék 10">
+                    <h2>Termék 10</h2>
+                    <p>Rugalmas munkahelyi lámpa.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product11.jpg" alt="Termék 11">
+                    <h2>Termék 11</h2>
+                    <p>Erős munkakesztyűk.</p>
+                    <button>Megvásárlás</button>
+                </div>
+                <div class="product">
+                    <img src="product12.jpg" alt="Termék 12">
+                    <h2>Termék 12</h2>
+                    <p>Kiváló minőségű barkácslétrák.</p>
+                    <button>Megvásárlás</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Barkácsbolt. Minden jog fenntartva.</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
