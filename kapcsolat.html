@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkácsbolt - Kapcsolat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Barkácsbolt Logó">
+        <h1>Barkácsbolt</h1>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+    <nav class="nav-menu">
+        <a href="barkacs.html">Kezdőlap</a>
+        <a href="termek.html">Termékek</a>
+        <a href="rolunk.html">Rólunk</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+    </nav>
+    <div class="content">
+        <section id="contact">
+            <h2>Kapcsolat</h2>
+            <p>Elérhetőségeink:</p>
+            <ul>
+                <li>Email: <a href="mailto:info@barkacsbolt.hu">info@barkacsbolt.hu</a></li>
+                <li>Telefon: +36 1 234 5678</li>
+                <li>Cím: 1234 Budapest, Minta utca 1.</li>
+            </ul>
+            <p>Nyitvatartási idő:</p>
+            <ul>
+                <li>Hétfő - Péntek: 8:00 - 18:00</li>
+                <li>Szombat: 9:00 - 14:00</li>
+                <li>Vasárnap: Zárva</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Barkácsbolt. Minden jog fenntartva.</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
