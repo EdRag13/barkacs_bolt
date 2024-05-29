@@ -162,4 +162,13 @@ section {
         display: block;
         padding: 1rem 0;
     }
+    #nagykep{
+        width: 80%;
+    }
 }
+@media(max-width: 375px){
+    #logo{
+        visibility: hidden;
+    }
+}
+
